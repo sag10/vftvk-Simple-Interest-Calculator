@@ -6,7 +6,7 @@ function compute()
     var years = document.getElementById("years").value;
     var interest = (principal * years * rate / 100) * 10;
     var year = new Date().getFullYear()+parseInt(years);
-    var message = "If you deposit <span class=\"show\">"+principal+"</span>,\<br\>at an interest rate of <span class=\"show\">"+rate+"%</span>\<br\>You will receive an amount of <span class=\"show\">"+interest+"</span>,\<br\>in the year <span class=\"show\">"+year+"</span>\<br\>";
+    var message = "If you deposit <p class=\"show\">"+principal+"</p>,\<br\>at an interest rate of <p class=\"show\">"+rate+"%</p>\<br\>You will receive an amount of <p class=\"show\">"+interest+"</p>,\<br\>in the year <p class=\"show\">"+year+"</p>\<br\>";
     document.getElementById("result").innerHTML=message;
 }
 function updateRate() 
