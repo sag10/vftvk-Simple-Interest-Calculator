@@ -9,6 +9,7 @@ function compute()
     var year = new Date().getFullYear()+parseInt(years);
     if (principal == "" || principal <= 0) {
     alert("Enter a positive number");
+     return;
      }
     else{
     var message = "If you deposit <p class=\"show\">"+principal+"</p>,\<br\>at an interest rate of <p class=\"show\">"+rate+"%</p>\<br\>You will receive an amount of <p class=\"show\">"+interest+"</p>,\<br\>in the year <p class=\"show\">"+year+"</p>\<br\>";
