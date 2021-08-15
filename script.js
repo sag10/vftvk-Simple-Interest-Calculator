@@ -3,11 +3,11 @@ function compute()
     
     p = document.getElementById("principal").value;
     var principal = document.getElementById("principal").value;
-   ; 
+  
     if (principal == "" || principal <= 0) {
     alert("Enter a positive number");
-    document.getElementById("principal").focus(); 
-    return document.getElementById("principal").focus();
+    
+   
      }
     var rate = document.getElementById("rate").value;
     var years = document.getElementById("years").value;
