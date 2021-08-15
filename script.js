@@ -1,5 +1,6 @@
 function compute()
 {
+    document.getElementById("principal").focus();
     p = document.getElementById("principal").value;
     var principal = document.getElementById("principal").value;
     document.getElementById("principal").focus(); 
