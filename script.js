@@ -10,7 +10,7 @@ function compute()
     if (principal == "" || principal <= 0) {
     alert("Enter a positive number");
     document.getElementById("principal").focus(); 
-     return;
+    
      }
     else{
     var message = "If you deposit <span class=\"show\">"+principal+"</span>,\<br\>at an interest rate of <span class=\"show\">"+rate+"%</span>\<br\>You will receive an amount of <span class=\"show\">"+interest+"</span>,\<br\>in the year <span class=\"show\">"+year+"</span>\<br\>";
