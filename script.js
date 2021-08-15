@@ -1,9 +1,9 @@
 function compute()
 {
-    document.getElementById("principal").focus();
+    
     p = document.getElementById("principal").value;
     var principal = document.getElementById("principal").value;
-    document.getElementById("principal").focus(); 
+   ; 
     if (principal == "" || principal <= 0) {
     alert("Enter a positive number");
     document.getElementById("principal").focus(); 
@@ -20,7 +20,7 @@ function compute()
    
     var message = "If you deposit <span class=\"show\">"+principal+"</span>,\<br\>at an interest rate of <span class=\"show\">"+rate+"%</span>\<br\>You will receive an amount of <span class=\"show\">"+interest+"</span>,\<br\>in the year <span class=\"show\">"+year+"</span>\<br\>";
     document.getElementById("result").innerHTML=message;
-    document.getElementById("principal").focus();
+   
 }
 function updateRate() 
 {
